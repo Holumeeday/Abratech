@@ -1,0 +1,55 @@
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" routerLink="/home"> <h3 style="font-family: 'Courier New', Courier, monospace;">ABRATECH SECURITY</h3></a>
+        <button (click)="toggleDisplayDiv()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+                <div class="side" [hidden]="isShowDiv"> 
+                    <ul>
+                    <li>
+ 
+                        <a class="nav-link sidelink1 icon2" routerLink="/home"> Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li>
+                       
+                        <a class="nav-link sidelink2" routerLink="/about">About Us </a>
+                    </li>
+                    <li>
+                       
+                        <a class="nav-link sidelink3" routerLink="/secondary"> Services </a>
+                    </li>
+                    <li>
+                        
+                        <a class="nav-link sidelink4" routerLink="/refrence">Gallery</a>
+                    </li>
+                    <li>
+                       
+                        <a class="nav-link sidelink sidelink5" routerLink="/contact-us">Contact Us</a>
+                    </li>
+
+                    <li>
+                       
+                        <a class="nav-link sidelink sidelink6" routerLink="/shop">Shop</a>
+                    </li>
+                    
+                    </ul>
+                </div>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" routerLink="/home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" routerLink="/about">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                <li class="nav-item"><a class="nav-link" routerLink="/refrence">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" routerLink="/shop">Shop</a></li>
+            </ul>
+
+            <ul class="navbar-nav navbar-right">
+                <li class="nav-item"> <button class="btn btn-primary btn-sm">Login</button> </li>
+                <li class="nav-item"> <button class="btn btn-primary btn-md">Sign Up</button> </li>
+            </ul>
+        </div>
+    </div>
+</nav>

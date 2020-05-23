@@ -1,0 +1,341 @@
+
+h4{
+    color: #a81010;
+    text-align: center;
+}
+
+.about{
+    width: 100%;
+    padding: 7px;
+}
+
+.card{
+   
+	width: 70%; 
+	height: 60vh;
+    padding: 9px;
+	border-radius: 10px;  
+	border: 1px solid #a81010;
+	margin-bottom: 20px;
+	margin-left: 10px;
+  
+}
+
+
+.lead{
+    width: 100%;
+}
+
+#input{
+
+    width: 100%;
+}
+
+.input{
+	width: 45%;
+	padding: 7px;
+	border: 1px solid #a81010;
+	border-radius: 10px;
+	position: absolute;
+	top: 23%;
+}
+
+.inputi{
+	width: 45%;
+	padding: 7px;
+	border: 1px solid #a81010;
+	border-radius: 10px;
+	position: absolute;
+	top: 23%;
+	left: 49%;
+}
+
+.select{
+	position: absolute;
+	top: 37%;
+
+}
+
+.select span{
+	margin-right: 10px;
+	color: #a81010;
+}
+
+.message{
+	position: absolute;
+	top: 49%;
+	width: 90%;
+	height: 15vh;
+	border: 1px solid #a81010;
+	border-radius: 10px;
+	margin-left: 10px;
+
+}
+
+.check{
+	position: absolute;
+	top: 67%;
+}
+
+.butt{
+	position: absolute;
+	top: 80%;
+	border: 1px solid #a81010;
+	border-radius: 10px;
+	width: 90%;
+	background: #a81010;
+	margin-left: 10px;
+}
+/* Screens Resolution : 992px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+    
+    .card{
+        width: 100%;
+    }
+
+	
+.input{
+	width: 90%;
+	padding: 7px;
+	border: 1px solid #a81010;
+	border-radius: 10px;
+	position: absolute;
+	top: 15%;
+	margin-left: 13px;
+}
+
+.inputi{
+	width: 90%;
+	padding: 7px;
+	border: 1px solid #a81010;
+	border-radius: 10px;
+	position: absolute;
+	top: 35%;
+	left: 4%;
+	margin-left: 10px;
+
+}
+
+.select{
+	position: absolute;
+	top: 47%;
+	margin-left: 10px;
+
+}
+
+.select span{
+	margin-right: 10px;
+	color: #a81010;
+}
+
+.message{
+	position: absolute;
+	top: 57%;
+	width: 90%;
+	height: 15vh;
+	border: 1px solid #a81010;
+	border-radius: 10px;
+	margin-left: 10px;
+
+}
+
+.check{
+	position: absolute;
+	top: 67%;
+}
+
+.butt{
+	position: absolute;
+	top: 86%;
+	border: 1px solid #a81010;
+	border-radius: 10px;
+	width: 90%;
+	background: #a81010;
+	margin-left: 10px;
+}
+	
+}
+
+/* screens resolution */
+@media (min-width: 1281px) {
+  
+    .card{
+        width: 50%;
+    }
+    
+    .sub{
+       text-align: center;
+      position: relative;
+      left:50%;
+    }
+  }
+
+/* Screens Resolution : 992px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 992px) {
+	
+	/* ---------------------------------
+	1. PRIMARY STYLES
+	--------------------------------- */
+	
+	.main-area{ position: relative; height: 200vh; }
+
+
+	/* ---------------------------------
+	3. RIGHT SECTION
+	--------------------------------- */
+
+	.right-section{ float: none; width: 100%; height: 50%; }
+	
+	.right-section .main-content{ padding: 40px 0; }
+	
+	.main-content .email-input-area{ width: 100%; }
+	
+	.main-content .email-input-area .email-input{ padding: 0 115px 0 20px; }
+	
+	.main-content .email-input-area .submit-btn{ width: 80px; } 
+	
+	.right-section .footer-icons > li > a > i{ height: 30px; line-height: 28px; width: 30px; }
+	
+	
+	/* ---------------------------------
+	4. LEFT SECTION
+	--------------------------------- */
+
+	.left-section{ position: static; width: 100%; height: 50%; }
+
+	.date-countdown{ width: 100%; }
+	
+	.date-countdown .time_circles > div > h4{ font-size: .7em!important; }
+
+}
+
+
+/* Screens Resolution : 767px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+	
+	/* ---------------------------------
+	1. PRIMARY STYLES
+	--------------------------------- */
+
+	p{ line-height: 1.4; }
+
+	h1{ font-size: 2.8em; line-height: 1; }
+	h2{ font-size: 2.2em; line-height: 1.1; }
+	h3{ font-size: 1.8em; }
+		
+	
+	
+}
+
+/* Screens Resolution : 479px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 479px) {
+
+	/* ---------------------------------
+	1. PRIMARY STYLES
+	--------------------------------- */
+
+	body{ font-size: 13px; }
+	
+
+	/* ---------------------------------
+	4. REMAINING TIME
+	--------------------------------- */
+
+	#normal-countdown .time-sec{ height: 100px; width: 100px; margin: 5%; }
+	
+	#normal-countdown .time-sec .main-time{ line-height: 80px; }
+	
+	
+	/* ---------------------------------
+	4. RIGHT SECTION
+	--------------------------------- */
+
+	.right-section{ padding: 0 30px; }
+
+}
+
+/* Screens Resolution : 359px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 359px) {
+	
+	
+}
+
+/* Screens Resolution : 290px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 290px) {
+	
+	
+}
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+   
+	
+  }
+  
+  /* 
+	##Device = Laptops, Desktops
+	##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+	
+   
+	
+  }
+  
+  /* 
+	##Device = Tablets, Ipads (portrait)
+	##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+	
+
+	
+  }
+  
+  /* 
+	##Device = Tablets, Ipads (landscape)
+	##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	
+
+	
+  }
+  
+  /* 
+	##Device = Low Resolution Tablets, Mobiles (Landscape)
+	##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+	
+
+	
+  }
+  
+  /* 
+	##Device = Most of the Smartphones Mobiles (Portrait)
+	##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+	
+
+	
+  }
